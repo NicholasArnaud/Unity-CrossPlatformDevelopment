@@ -12,7 +12,7 @@ public class InputBehaviour : MonoBehaviour
     // Use this for initialization
     void Start()
     {
-        titleText.text = "TBA";
+        titleText.text = "Random Text Base Adventure";
         enterText("Welcome to the Text Based Adventure Game! Random Edition!");
         enterText("You are lost in a crowded forest.. use W,A,S,D keys to try to find your way out");
     }
