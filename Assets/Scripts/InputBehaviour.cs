@@ -9,6 +9,7 @@ public class InputBehaviour : MonoBehaviour
     public Text logText;
     public bool win = false;
     private int temp = 0;
+
     // Use this for initialization
     void Start()
     {
@@ -74,11 +75,11 @@ public class InputBehaviour : MonoBehaviour
     void randomScenario()
     {
         float random = Random.Range(0.0f, 10.0f);
-        if (random <= 3)
+        if (random < 3)
         {
             enterText("There seems to be nothing that stands out here...");
         }
-        if (random > 3 && random < 4)
+        if (random >= 3 && random < 4)
         {
             enterText("You hear eerie sounds in the distance. It's best to find a way out.");
         }
