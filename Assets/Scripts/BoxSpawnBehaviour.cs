@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 //Spawn Boxes Behaviour
-public class GameBehaviour : MonoBehaviour
+public class BoxSpawnBehaviour : MonoBehaviour
 {
     public List<GameObject> boxes;
     public GameObject boxPrefab;
